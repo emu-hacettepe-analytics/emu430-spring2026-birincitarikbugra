@@ -1,9 +1,10 @@
 project:
   type: website
   output-dir: docs
-
+  resources:
+    - .nojekyll
 website:
-  title: "[Student/Group Full Name]'s Analytics Lab"
+  title: "Tarık Buğra Birinci's Analytics Lab"
   navbar:
     search: true
     left:
@@ -22,12 +23,9 @@ website:
             
     tools:
       - icon: github
-        href: https://twitter.com
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/birincitarikbugra
       - icon: linkedin
-        href: https://linkedin.com
-
+        href: https://www.linkedin.com/in/tarık-bugra-birinci-/
   sidebar:
     - title: "Assignments"
       style: "docked"
@@ -41,15 +39,19 @@ website:
   page-footer:
     center: "Hacettepe IE - EMU430 - 2026 Spring" 
     border: true
+
 format:
   html:
     toc: true
     toc-location: left
-    theme: 
-      light: pulse 
-      dark: superhero
+    theme:
+      light: flatly
+      dark: flatly
     css: styles.css
 
-
 editor: visual
+
+
+
+
 

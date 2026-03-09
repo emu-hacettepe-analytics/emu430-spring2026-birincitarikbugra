@@ -1,1 +1,16 @@
-/* css styles */
+/* styles.css */
+body {
+  font-family: 'Inter', sans-serif; /* Daha modern bir yazı tipi */
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  background-color: #2c3e50 !important; /* Kurumsal bir koyu mavi */
+  border-bottom: 3px solid #18bc9c; /* Altına ince bir yeşil çizgi */
+}
+
+.title {
+  color: #2c3e50;
+  font-weight: 700;
+}/* css styles */
+
