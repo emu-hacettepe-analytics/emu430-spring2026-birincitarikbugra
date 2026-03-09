@@ -290,6 +290,7 @@ ul.task-list li input[type="checkbox"] {
             <div class="quarto-navbar-tools tools-wide">
     <a href="https://github.com/birincitarikbugra" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
     <a href="https://www.linkedin.com/in/tarık-bugra-birinci-/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
+    <a href="https://mail.google.com/mail/u/0/#inbox/FMfcgzQfCMpSwmjfRGTWPMTKJcfkHHhM?compose=GTvVlcSHwfMxLSZlVXrFXhKtczMcWDfxMdwTvkDMPLFqqDllZWWbspgxjCRqGMSLXgLxbNgRcQkMT" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -306,10 +307,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#welcome-to-my-personal-webpage" id="toc-welcome-to-my-personal-webpage" class="nav-link active" data-scroll-target="#welcome-to-my-personal-webpage">Welcome to My Personal Webpage</a>
   <ul class="collapse">
   <li><a href="#what-you-can-find-here" id="toc-what-you-can-find-here" class="nav-link" data-scroll-target="#what-you-can-find-here">What you can find here</a></li>
-  </ul></li>
-  <li><a href="#kişisel-web-siteme-hoş-geldiniz" id="toc-kişisel-web-siteme-hoş-geldiniz" class="nav-link" data-scroll-target="#kişisel-web-siteme-hoş-geldiniz">Kişisel Web Siteme Hoş Geldiniz</a>
-  <ul class="collapse">
-  <li><a href="#bu-sitede-neler-var" id="toc-bu-sitede-neler-var" class="nav-link" data-scroll-target="#bu-sitede-neler-var">Bu sitede neler var?</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -341,46 +338,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const savedLang = localStorage.getItem("siteLang") || "en";
-  if (savedLang === "tr") {
-    document.body.classList.add("tr");
-  }
-
-  const toggle = document.getElementById("langSwitch");
-  if (toggle && savedLang === "tr") {
-    toggle.classList.add("tr");
-  }
-});
-
-function toggleLang() {
-  const body = document.body;
-  const toggle = document.getElementById("langSwitch");
-
-  body.classList.toggle("tr");
-  toggle.classList.toggle("tr");
-
-  const currentLang = body.classList.contains("tr") ? "tr" : "en";
-  localStorage.setItem("siteLang", currentLang);
-}
-</script>
-<div class="lang-toggle">
-<div id="langSwitch" class="switch" onclick="toggleLang()">
-<pre><code>&lt;div class="slider"&gt;&lt;/div&gt;
-&lt;span&gt;🇬🇧 EN&lt;/span&gt;
-&lt;span&gt;🇹🇷 TR&lt;/span&gt;</code></pre>
-</div>
-</div>
-<section id="welcome-to-my-personal-webpage" class="level1 lang-en">
+<section id="welcome-to-my-personal-webpage" class="level1">
 <h1>Welcome to My Personal Webpage</h1>
-<div class="page-intro">
 <p>I am Tarık Buğra Birinci, a senior Industrial Engineering student at Hacettepe University. This website presents my background, projects, coursework, and professional interests.</p>
-</div>
-<div class="hero-actions">
-<p><a href="./about.html" class="secondary-btn">About Me</a> <a href="./project.html" class="secondary-btn">Project</a> <a href="./assignments.html" class="secondary-btn">Assignments</a></p>
-</div>
-<section id="what-you-can-find-here" class="level2 card-lite">
+<section id="what-you-can-find-here" class="level2">
 <h2 class="anchored" data-anchor-id="what-you-can-find-here">What you can find here</h2>
 <ul>
 <li>My academic and professional background<br>
@@ -391,31 +352,10 @@ function toggleLang() {
 </li>
 <li>Portfolio-style personal content</li>
 </ul>
-</section>
-</section>
-<section id="kişisel-web-siteme-hoş-geldiniz" class="level1 lang-tr">
-<h1>Kişisel Web Siteme Hoş Geldiniz</h1>
-<div class="page-intro">
-<p>Ben Tarık Buğra Birinci. Hacettepe Üniversitesi Endüstri Mühendisliği son sınıf öğrencisiyim. Bu sitede geçmişim, projelerim, ders çalışmalarım ve profesyonel ilgi alanlarım yer alıyor.</p>
-</div>
-<div class="hero-actions">
-<p><a href="./about.html" class="secondary-btn">Hakkımda</a> <a href="./project.html" class="secondary-btn">Proje</a> <a href="./assignments.html" class="secondary-btn">Ödevler</a></p>
-</div>
-<section id="bu-sitede-neler-var" class="level2 card-lite">
-<h2 class="anchored" data-anchor-id="bu-sitede-neler-var">Bu sitede neler var?</h2>
-<ul>
-<li>Akademik ve profesyonel geçmişim<br>
-</li>
-<li>EMU430 ders sayfaları<br>
-</li>
-<li>Proje detayları<br>
-</li>
-<li>Portfolyo tarzı kişisel içerikler</li>
-</ul>
-</section>
-</section>
 
 
+</section>
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

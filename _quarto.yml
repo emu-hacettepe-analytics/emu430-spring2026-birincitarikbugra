@@ -26,6 +26,8 @@ website:
         href: https://github.com/birincitarikbugra
       - icon: linkedin
         href: https://www.linkedin.com/in/tarık-bugra-birinci-/
+      - icon: envelope
+        href: https://mail.google.com/mail/u/0/#inbox/FMfcgzQfCMpSwmjfRGTWPMTKJcfkHHhM?compose=GTvVlcSHwfMxLSZlVXrFXhKtczMcWDfxMdwTvkDMPLFqqDllZWWbspgxjCRqGMSLXgLxbNgRcQkMT
   sidebar:
     - title: "Assignments"
       style: "docked"
