@@ -3,8 +3,11 @@ project:
   output-dir: docs
   resources:
     - .nojekyll
+    - assets
+
 website:
   title: "Tarık Buğra Birinci's Analytics Lab"
+
   navbar:
     search: true
     left:
@@ -20,12 +23,23 @@ website:
             href: assignments.qmd
           - text: Project
             href: project.qmd
-            
+
+    right:
+      - text: Language
+        menu:
+          - text: English
+            href: index.qmd
+          - text: Türkçe
+            href: tr/index.qmd
+
     tools:
       - icon: github
         href: https://github.com/birincitarikbugra
       - icon: linkedin
-        href: https://www.linkedin.com/in/tarık-bugra-birinci-/
+        href: https://www.linkedin.com/in/tar%C4%B1k-bugra-birinci-/
+      - icon: envelope
+        href: https://mail.google.com/mail/?view=cm&fs=1&to=birincitarikbugra@gmail.com
+
   sidebar:
     - title: "Assignments"
       style: "docked"
@@ -33,11 +47,12 @@ website:
       contents:
         - assignments.qmd
         - assignments/assignment-1.qmd
-        - assignments/assignment-2.qmd  
+        - assignments/assignment-2.qmd
+
   page-navigation: true
   back-to-top-navigation: true
   page-footer:
-    center: "Hacettepe IE - EMU430 - 2026 Spring" 
+    center: "Hacettepe IE - EMU430 - 2026 Spring"
     border: true
 
 format:
@@ -50,8 +65,3 @@ format:
     css: styles.css
 
 editor: visual
-
-
-
-
-

@@ -57,4 +57,8 @@ Throughout my career, I have had the opportunity to work in diverse sectors. As 
 
 -   \
 
-[Download my Full Resume (PDF)](https://www.google.com/search?q=cv/Resume_Tarik_Bugra_Birinci.pdf "null")
+
+<a href="https://drive.google.com/drive/folders/1o5vhIvLB96zP2C-pLugBUV4rgf7QSXnW"
+class="btn btn-primary" target="_blank">
+Download My Resume
+</a>
