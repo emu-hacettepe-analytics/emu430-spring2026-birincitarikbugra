@@ -1,9 +1,0 @@
----
-title: "Ana Sayfa"
----
-
-# Merhaba
-
-Ben Tarık Buğra Birinci.
-
-Bu sitede portfolyomu, ders çalışmalarımı ve projelerimi paylaşıyorum.

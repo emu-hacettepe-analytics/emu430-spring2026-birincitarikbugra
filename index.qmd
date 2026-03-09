@@ -1,10 +1,94 @@
 ---
-title: "Welcome to My Analytics Lab"
-sidebar: false 
+title: "Home"
 ---
 
-Hello! My name is Tarik.
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const savedLang = localStorage.getItem("siteLang") || "en";
+  if (savedLang === "tr") {
+    document.body.classList.add("tr");
+  }
 
-This is my personal webpage! I am a senior Industrial Engineering student at Hacettepe University, specializing in data analysis and process optimization.
+  const toggle = document.getElementById("langSwitch");
+  if (toggle && savedLang === "tr") {
+    toggle.classList.add("tr");
+  }
+});
 
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/tar%C4%B1k-bugra-birinci-/)!
+function toggleLang() {
+  const body = document.body;
+  const toggle = document.getElementById("langSwitch");
+
+  body.classList.toggle("tr");
+  toggle.classList.toggle("tr");
+
+  const currentLang = body.classList.contains("tr") ? "tr" : "en";
+  localStorage.setItem("siteLang", currentLang);
+}
+</script>
+
+<div class="lang-toggle">
+  <div id="langSwitch" class="switch" onclick="toggleLang()">
+    <div class="slider"></div>
+    <span>🇬🇧 EN</span>
+    <span>🇹🇷 TR</span>
+  </div>
+</div>
+
+<div class="lang-en">
+
+# Welcome to My Personal Webpage
+
+<div class="page-intro">
+
+I am Tarık Buğra Birinci, a senior Industrial Engineering student at Hacettepe University. This website presents my background, projects, coursework, and professional interests.
+
+</div>
+
+<div class="hero-actions">
+  <a href="about.qmd" class="secondary-btn">About Me</a>
+  <a href="project.qmd" class="secondary-btn">Project</a>
+  <a href="assignments.qmd" class="secondary-btn">Assignments</a>
+</div>
+
+<div class="card-lite">
+
+## What you can find here
+
+- My academic and professional background  
+- EMU430 coursework pages  
+- Project details  
+- Portfolio-style personal content  
+
+</div>
+
+</div>
+
+<div class="lang-tr">
+
+# Kişisel Web Siteme Hoş Geldiniz
+
+<div class="page-intro">
+
+Ben Tarık Buğra Birinci. Hacettepe Üniversitesi Endüstri Mühendisliği son sınıf öğrencisiyim. Bu sitede geçmişim, projelerim, ders çalışmalarım ve profesyonel ilgi alanlarım yer alıyor.
+
+</div>
+
+<div class="hero-actions">
+  <a href="about.qmd" class="secondary-btn">Hakkımda</a>
+  <a href="project.qmd" class="secondary-btn">Proje</a>
+  <a href="assignments.qmd" class="secondary-btn">Ödevler</a>
+</div>
+
+<div class="card-lite">
+
+## Bu sitede neler var?
+
+- Akademik ve profesyonel geçmişim  
+- EMU430 ders sayfaları  
+- Proje detayları  
+- Portfolyo tarzı kişisel içerikler  
+
+</div>
+
+</div>

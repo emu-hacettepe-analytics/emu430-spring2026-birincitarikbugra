@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "About Me"
 sidebar: false 
@@ -7,7 +8,7 @@ sidebar: false
 
 I am a senior Industrial Engineering student at Hacettepe University with a strong focus on business analysis and process optimization. My goal is to apply my analytical mindset and technical background in SQL, Python, and SDLC management to solve complex engineering and business challenges.
 
-Throughout my career, I have had the opportunity to work in diverse sectors. As a Long-Term Business Analyst Intern at IBTECH, I act as a bridge between business units and IT teams, managing SDLC processes and functional documentation. My previous experiences include optimizing production scheduling at MKE and managing international procurement and Just-In-Time (JIT) models at Balıkçı Metal. On the academic side, I am collaborating with TUSAŞ for my graduation project, where I use Critical Path Method (CPM), PERT, and Monte Carlo Simulations to optimize project scheduling for high-complexity aircraft systems.
+Throughout my career, I have had the opportunity to work in diverse sectors. As a Long-Term Business Analyst Intern at IBTECH, I act as a bridge between business units and IT teams, managing SDLC processes and functional documentation. My previous experiences include optimizing production scheduling at MKE and managing international procurement and Just-In-Time (JIT) models at Bal??k???? Metal. On the academic side, I am collaborating with TUSA?? for my graduation project, where I use Critical Path Method (CPM), PERT, and Monte Carlo Simulations to optimize project scheduling for high-complexity aircraft systems.
 
 # Education
 
@@ -21,15 +22,15 @@ Throughout my career, I have had the opportunity to work in diverse sectors. As 
 
 1.  **IBTECH Technologies**, Business Analyst Intern, Sep 2025 - Mar 2026.
 
-2.  **Makine ve Kimya Endüstrisi (MKE)**, Production Planning Intern, Jun 2025 - Jul 2025.
+2.  **Makine ve Kimya End??strisi (MKE)**, Production Planning Intern, Jun 2025 - Jul 2025.
 
-3.  **Balıkçı Metal**, Supply Chain and Purchasing Intern, Aug 2024 - Sep 2024.
+3.  **Bal??k???? Metal**, Supply Chain and Purchasing Intern, Aug 2024 - Sep 2024.
 
 4.  **BioArt Laboratories (Eindhoven, Netherlands)**, ESC Project Intern, Jun 2023 - Aug 2023.
 
 # Projects
 
--   **TUSAŞ Graduation Project**: Air Vehicle Design and Development Project Scheduling with Uncertain Activity Durations.
+-   **TUSA?? Graduation Project**: Air Vehicle Design and Development Project Scheduling with Uncertain Activity Durations.
 
 # Competencies
 
@@ -45,20 +46,4 @@ Throughout my career, I have had the opportunity to work in diverse sectors. As 
 
 -   **Google Machine Learning & AI** (2024)
 
--   **Corporate Relations & HR Coordinator \|** IAESTE Hacettepe (2023–2024)
-
--   **Education Unit Coordinator** \| Hacettepe Industry & System Community (2022–2023)
-
--   **Team Leader (Volunteer)** \| UEFA Champions League Final, Istanbul (2023)
-
--   **Volunteer** \| TVF Volleyball Nations League & Club World Championship (2021- 2022)
-
-# Hobbies
-
--   \
-
-
-<a href="https://drive.google.com/drive/folders/1o5vhIvLB96zP2C-pLugBUV4rgf7QSXnW"
-class="btn btn-primary" target="_blank">
-Download My Resume
-</a>
+-   **Corporate Relations & HR Coordinator \|** IAESTE Hacettepe (2023b
