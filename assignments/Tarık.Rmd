@@ -4,5 +4,5 @@ author: "Tarık"
 output: html_document
 ---
 
-```{}
+```         
 ```

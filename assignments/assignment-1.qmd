@@ -6,7 +6,7 @@ This assignment consists of two main parts: a video summary with related questio
 
 ## A. **Video Summary**
 
-Video Title: Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Mustafa Baydoğan & Erdi Daşdemir
+Video Title:undefined
 
 ### **Summary**
 
@@ -41,5 +41,3 @@ D)  Diagnostic Analytics
 **Answer: C) Prescriptive Analytics**
 
 ------------------------------------------------------------------------
-
-
