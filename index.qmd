@@ -1,20 +1,21 @@
 ---
-title: "Home"
+title: "Main Page"
 ---
 
+<div class="hero">
 
+<img src="images/profile.jpg">
 
-# Welcome to My Personal Webpage
+<div class="hero-text">
 
+# Welcome to My Personal Website
 
-I am Tarık Buğra Birinci, a senior Industrial Engineering student at Hacettepe University. This website presents my background, projects, coursework, and professional interests.
+I am **Tarık Buğra Birinci**, a senior Industrial Engineering student at **Hacettepe University**.
 
+This website presents my academic work, projects, and professional background.
 
+Here you can explore my coursework, portfolio projects, and research interests.
 
-## What you can find here
+</div>
 
-- My academic and professional background  
-- EMU430 coursework pages  
-- Project details  
-- Portfolio-style personal content  
-
+</div>
