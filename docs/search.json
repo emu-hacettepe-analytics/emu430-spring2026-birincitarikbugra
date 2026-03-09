@@ -11,42 +11,58 @@
     "href": "index.html",
     "title": "Welcome to My Analytics Lab",
     "section": "",
-    "text": "Hello! My name is xxx xxxx.\nThis is my personal webpage.\nPlease stay tuned to follow my works on data analytics, blog posts, and more.\nThis is our template.\n\n\n\n Back to top"
+    "text": "Hello! My name is Tarık.\nThis is my personal webpage.\nPlease stay tuned to follow my works on data analytics, blog posts, and more.\n\n\n\n Back to top"
   },
   {
-    "objectID": "assignments/assignment-2.html",
-    "href": "assignments/assignment-2.html",
-    "title": "Assignment 2",
+    "objectID": "assignments/Tarık.html",
+    "href": "assignments/Tarık.html",
+    "title": "Polls US Election 2016 Analysis",
     "section": "",
-    "text": "Assignment 2\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing."
-  },
-  {
-    "objectID": "about.html#employements",
-    "href": "about.html#employements",
-    "title": "About Me",
-    "section": "Employements",
-    "text": "Employements\n\nFirm xxx, position xx, year xxx\nFirm yyy, position yyy, year yyy"
-  },
-  {
-    "objectID": "about.html#internships",
-    "href": "about.html#internships",
-    "title": "About Me",
-    "section": "Internships",
-    "text": "Internships\n\nFirm aaa, position xx, year xxx\nFirm bbb, position yyy, year yyy"
+    "text": "Back to top"
   },
   {
     "objectID": "assignments/assignment-1.html",
     "href": "assignments/assignment-1.html",
     "title": "Assignment 1",
     "section": "",
-    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts."
+    "text": "This assignment consists of two main parts: a video summary with related questions and a set of R programming tasks performed on a specific dataset.",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-1.html#a.-video-summary",
+    "href": "assignments/assignment-1.html#a.-video-summary",
+    "title": "Assignment 1",
+    "section": "A. Video Summary",
+    "text": "A. Video Summary\nVideo Title: Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Mustafa Baydoğan & Erdi Daşdemir\n\nSummary\nIn this discussion, Mustafa Baydoğan highlights the critical role of Industrial Engineering (IE) in the field of data science. The main points discussed include:\n\nSystems Thinking: It is essential to understand the physical or business process behind the data rather than treating data as isolated numbers.\nInterpretability: In business environments, such as banking or manufacturing, being able to explain “why” a model made a certain prediction is often more important than the complexity of the model itself.\nPrescriptive Analytics: The transition from simply predicting the future (Predictive) to determining the best course of action (Prescriptive) through optimization is the ultimate goal for an engineer.\nReal-World Impact: Examples from electricity markets and retail ranking algorithms demonstrate how data science creates significant financial value when applied correctly.\n\n\n\nQuestions & Answers\n\nWhy is “interpretability” considered a priority in Industrial Engineering data science projects compared to using “black-box” models?\n\nAnswer: Interpretability is vital because business decisions often require justification for stakeholders or regulatory compliance. If a model’s logic is hidden, it becomes nearly impossible to perform root cause analysis or build trust with decision-makers when errors occur.\n\nAccording to the video, which type of analytics focuses on “What should we do?” by combining predictions with optimization?\n\n\n\nDescriptive Analytics\nPredictive Analytics\nPrescriptive Analytics\nDiagnostic Analytics\n\nAnswer: C) Prescriptive Analytics",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I am a senior Industrial Engineering student at Hacettepe University with a strong focus on business analysis and process optimization. My goal is to apply my analytical mindset and technical background in SQL, Python, and SDLC management to solve complex engineering and business challenges.\nThroughout my career, I have had the opportunity to work in diverse sectors. As a Long-Term Business Analyst Intern at IBTECH, I act as a bridge between business units and IT teams, managing SDLC processes and functional documentation. My previous experiences include optimizing production scheduling at MKE and managing international procurement and Just-In-Time (JIT) models at Balıkçı Metal. On the academic side, I am collaborating with TUSAŞ for my graduation project, where I use Critical Path Method (CPM), PERT, and Monte Carlo Simulations to optimize project scheduling for high-complexity aircraft systems."
+  },
+  {
+    "objectID": "about.html#internships",
+    "href": "about.html#internships",
+    "title": "About Me",
+    "section": "Internships",
+    "text": "Internships\n\nIBTECH Technologies, Business Analyst Intern, Sep 2025 - Mar 2026.\nMakine ve Kimya Endüstrisi (MKE), Production Planning Intern, Jun 2025 - Jul 2025.\nBalıkçı Metal, Supply Chain and Purchasing Intern, Aug 2024 - Sep 2024.\nBioArt Laboratories (Eindhoven, Netherlands), ESC Project Intern, Jun 2023 - Aug 2023."
+  },
+  {
+    "objectID": "assignments/assignment-2.html",
+    "href": "assignments/assignment-2.html",
+    "title": "Assignment 2",
+    "section": "",
+    "text": "Assignment 2\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Assignment 2"
+    ]
   },
   {
     "objectID": "assignments.html",
