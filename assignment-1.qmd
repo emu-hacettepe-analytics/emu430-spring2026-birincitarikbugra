@@ -1,0 +1,43 @@
+---
+title: "Assignment 1"
+---
+
+This assignment consists of two main parts: a video summary with related questions and a set of R programming tasks performed on a specific dataset.
+
+## A. **Video Summary**
+
+Video Title:undefined
+
+### **Summary**
+
+In this discussion, Mustafa Baydoğan highlights the critical role of Industrial Engineering (IE) in the field of data science. The main points discussed include:
+
+-   ***Systems Thinking***: It is essential to understand the physical or business process behind the data rather than treating data as isolated numbers.
+
+-   ***Interpretability**:* In business environments, such as banking or manufacturing, being able to explain "why" a model made a certain prediction is often more important than the complexity of the model itself.
+
+-   ***Prescriptive Analytics***: The transition from simply predicting the future (Predictive) to determining the best course of action (Prescriptive) through optimization is the ultimate goal for an engineer.
+
+-   ***Real-World Impact***: Examples from electricity markets and retail ranking algorithms demonstrate how data science creates significant financial value when applied correctly.
+
+### **Questions & Answers**
+
+1.  Why is "interpretability" considered a priority in Industrial Engineering data science projects compared to using "black-box" models?
+
+***Answer:*** Interpretability is vital because business decisions often require justification for stakeholders or regulatory compliance. If a model's logic is hidden, it becomes nearly impossible to perform root cause analysis or build trust with decision-makers when errors occur.
+
+2.  According to the video, which type of analytics focuses on "What should we do?" by combining predictions with optimization?
+
+<!-- -->
+
+A)  Descriptive Analytics
+
+B)  Predictive Analytics
+
+C)  Prescriptive Analytics
+
+D)  Diagnostic Analytics
+
+**Answer: C) Prescriptive Analytics**
+
+------------------------------------------------------------------------
