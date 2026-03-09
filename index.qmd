@@ -1,12 +1,21 @@
 ---
-title: "Welcome to My Analytics Lab"
-sidebar: false 
+title: "Tarık Buğra Birinci"
+subtitle: "Industrial Engineering Student | Data Analyst Candidate"
+image: profile.jpg # Add your professional photo to the root folder
+about:
+  template: flatly
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/tarikbugrabirinci/
+    - icon: github
+      text: GitHub
+      href: https://github.com/yourusername
+    - icon: envelope
+      text: Email
+      href: mailto:birincitarikbugra@gmail.com
 ---
+Hello! My name is Tarık.
 
-Hello! My name is xxx xxxx.
+This is my personal webpage! I am a senior Industrial Engineering student at Hacettepe University, specializing in data analysis and process optimization.
 
-This is my personal webpage.
-
-Please stay tuned to follow my works on data analytics, blog posts, and more.
-
-This is our template.
