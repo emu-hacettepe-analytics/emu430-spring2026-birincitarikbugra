@@ -3,13 +3,10 @@ title: "Welcome to My Analytics Lab"
 sidebar: false 
 ---
 
-Hello! I'm Tarık 
+Hello! I'm Tarık
 
 This is my personal webpage.
 
 Please stay tuned to follow my works on data analytics, blog posts, and more.
 
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/tarık-bugra-birinci-/)!
-
-
-
