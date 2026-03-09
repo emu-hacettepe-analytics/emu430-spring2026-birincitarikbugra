@@ -6,19 +6,31 @@ This assignment consists of two main parts: a video summary with related questio
 
 ## A. **Video Summary**
 
-Video Title:undefined
+Video Title: [Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Mustafa Baydoğan & Erdi Daşdemir](https://www.youtube.com/watch?v=1Mvkn71dhaA)
+
+### **Overview**
+
+The video discusses the relationship between Industrial Engineering and Data Science and explains how these two fields work together to solve real-world problems. The speaker emphasizes that data should not be analyzed alone. Instead, engineers should understand the system, process, or business environment behind the data. Industrial Engineers are well prepared for this because their education includes mathematics, statistics, optimization, and problem-solving methods. These skills help them analyze complex systems and make decisions based on data.
+
+Another important point in the video is that prediction is only one part of the process. In many business situations, the main goal is not only to forecast what will happen but also to decide what action should be taken. For this reason, the lecture highlights the importance of Prescriptive Analytics, which combines prediction with optimization and decision making. This approach helps companies choose the best strategy based on available data and possible future scenarios.
+
+The video also presents several practical examples to explain how data science is used in different industries. One example focuses on the manufacturing sector, where engineers predict whether wood will bend during production. By identifying this problem early, companies can take preventive actions and reduce financial losses. Another example comes from the energy sector, where electricity production and consumption must be balanced at all times. Accurate demand forecasts are important because incorrect predictions can lead to significant economic costs.
+
+In addition, the lecture discusses how data science is used in online retail platforms. Companies analyze customer behavior, product popularity, and inventory information to decide how products should be ranked on websites. The goal is to show customers the most relevant products while also maximizing sales and managing stock levels effectively.
+
+Finally, the speaker explains that in many business environments, models should be understandable and explainable. Even if complex machine learning models can achieve high accuracy, companies often prefer simpler models that can be clearly explained to managers or decision makers. The lecture also highlights that learning data science requires practical experience. Working with real, imperfect datasets and solving real problems is essential for developing strong analytical skills.
 
 ### **Summary**
 
-In this discussion, Mustafa Baydoğan highlights the critical role of Industrial Engineering (IE) in the field of data science. The main points discussed include:
+-   Industrial Engineers combine data analysis, optimization, and decision making.
 
--   ***Systems Thinking***: It is essential to understand the physical or business process behind the data rather than treating data as isolated numbers.
+-   Data science is applied in manufacturing, energy markets, and online retail.
 
--   ***Interpretability**:* In business environments, such as banking or manufacturing, being able to explain "why" a model made a certain prediction is often more important than the complexity of the model itself.
+-   Prescriptive Analytics helps decide the best action based on predictions.
 
--   ***Prescriptive Analytics***: The transition from simply predicting the future (Predictive) to determining the best course of action (Prescriptive) through optimization is the ultimate goal for an engineer.
+-   In business, interpretable models are often preferred.
 
--   ***Real-World Impact***: Examples from electricity markets and retail ranking algorithms demonstrate how data science creates significant financial value when applied correctly.
+-   Practical experience with real data is essential to learn data science.
 
 ### **Questions & Answers**
 
@@ -27,8 +39,6 @@ In this discussion, Mustafa Baydoğan highlights the critical role of Industrial
 ***Answer:*** Interpretability is vital because business decisions often require justification for stakeholders or regulatory compliance. If a model's logic is hidden, it becomes nearly impossible to perform root cause analysis or build trust with decision-makers when errors occur.
 
 2.  According to the video, which type of analytics focuses on "What should we do?" by combining predictions with optimization?
-
-<!-- -->
 
 A)  Descriptive Analytics
 
