@@ -21,38 +21,14 @@
     "text": "Back to top"
   },
   {
-    "objectID": "assignments/assignment-1.html",
-    "href": "assignments/assignment-1.html",
-    "title": "Assignment 1",
+    "objectID": "assignments/assignment-2.html",
+    "href": "assignments/assignment-2.html",
+    "title": "Assignment 2",
     "section": "",
-    "text": "This assignment consists of two main parts: a video summary with related questions and a set of R programming tasks performed on a specific dataset.",
+    "text": "Assignment 2\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n Back to top",
     "crumbs": [
-      "Assignment 1"
+      "Assignment 2"
     ]
-  },
-  {
-    "objectID": "assignments/assignment-1.html#a.-video-summary",
-    "href": "assignments/assignment-1.html#a.-video-summary",
-    "title": "Assignment 1",
-    "section": "A. Video Summary",
-    "text": "A. Video Summary\nVideo Title: Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Mustafa Baydoğan & Erdi Daşdemir\n\nOverview\nThe video discusses the relationship between Industrial Engineering and Data Science and explains how these two fields work together to solve real-world problems. The speaker emphasizes that data should not be analyzed alone. Instead, engineers should understand the system, process, or business environment behind the data. Industrial Engineers are well prepared for this because their education includes mathematics, statistics, optimization, and problem-solving methods. These skills help them analyze complex systems and make decisions based on data.\nAnother important point in the video is that prediction is only one part of the process. In many business situations, the main goal is not only to forecast what will happen but also to decide what action should be taken. For this reason, the lecture highlights the importance of Prescriptive Analytics, which combines prediction with optimization and decision making. This approach helps companies choose the best strategy based on available data and possible future scenarios.\nThe video also presents several practical examples to explain how data science is used in different industries. One example focuses on the manufacturing sector, where engineers predict whether wood will bend during production. By identifying this problem early, companies can take preventive actions and reduce financial losses. Another example comes from the energy sector, where electricity production and consumption must be balanced at all times. Accurate demand forecasts are important because incorrect predictions can lead to significant economic costs.\nIn addition, the lecture discusses how data science is used in online retail platforms. Companies analyze customer behavior, product popularity, and inventory information to decide how products should be ranked on websites. The goal is to show customers the most relevant products while also maximizing sales and managing stock levels effectively.\nFinally, the speaker explains that in many business environments, models should be understandable and explainable. Even if complex machine learning models can achieve high accuracy, companies often prefer simpler models that can be clearly explained to managers or decision makers. The lecture also highlights that learning data science requires practical experience. Working with real, imperfect datasets and solving real problems is essential for developing strong analytical skills.\n\n\nSummary\n\nIndustrial Engineers combine data analysis, optimization, and decision making.\nData science is applied in manufacturing, energy markets, and online retail.\nPrescriptive Analytics helps decide the best action based on predictions.\nIn business, interpretable models are often preferred.\nPractical experience with real data is essential to learn data science.\n\n\n\nQuestions & Answers\n\nWhy is “interpretability” considered a priority in Industrial Engineering data science projects compared to using “black-box” models?\n\nAnswer: Interpretability is vital because business decisions often require justification for stakeholders or regulatory compliance. If a model’s logic is hidden, it becomes nearly impossible to perform root cause analysis or build trust with decision-makers when errors occur.\n\nAccording to the video, which type of analytics focuses on “What should we do?” by combining predictions with optimization?\n\n\nDescriptive Analytics\nPredictive Analytics\nPrescriptive Analytics\nDiagnostic Analytics\n\nAnswer: C) Prescriptive Analytics",
-    "crumbs": [
-      "Assignment 1"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "I am a senior Industrial Engineering student at Hacettepe University with a strong focus on business analysis and process optimization. My goal is to apply my analytical mindset and technical background in SQL, Python, and SDLC management to solve complex engineering and business challenges.\nThroughout my career, I have had the opportunity to work in diverse sectors. As a Long-Term Business Analyst Intern at IBTECH, I act as a bridge between business units and IT teams, managing SDLC processes and functional documentation. My previous experiences include optimizing production scheduling at MKE and managing international procurement and Just-In-Time (JIT) models at Balıkçı Metal. On the academic side, I am collaborating with TUSAŞ for my graduation project, where I use Critical Path Method (CPM), PERT, and Monte Carlo Simulations to optimize project scheduling for high-complexity aircraft systems."
-  },
-  {
-    "objectID": "about.html#internships",
-    "href": "about.html#internships",
-    "title": "About Me",
-    "section": "Internships",
-    "text": "Internships\n\nIBTECH Technologies, Business Analyst Intern, Sep 2025 - Mar 2026.\nMakine ve Kimya Endüstrisi (MKE), Production Planning Intern, Jun 2025 - Jul 2025.\nBalıkçı Metal, Supply Chain and Purchasing Intern, Aug 2024 - Sep 2024.\nBioArt Laboratories (Eindhoven, Netherlands), ESC Project Intern, Jun 2023 - Aug 2023."
   },
   {
     "objectID": "assignment-1.html",
@@ -69,14 +45,55 @@
     "text": "A. Video Summary\nVideo Title:undefined\n\nSummary\nIn this discussion, Mustafa Baydoğan highlights the critical role of Industrial Engineering (IE) in the field of data science. The main points discussed include:\n\nSystems Thinking: It is essential to understand the physical or business process behind the data rather than treating data as isolated numbers.\nInterpretability: In business environments, such as banking or manufacturing, being able to explain “why” a model made a certain prediction is often more important than the complexity of the model itself.\nPrescriptive Analytics: The transition from simply predicting the future (Predictive) to determining the best course of action (Prescriptive) through optimization is the ultimate goal for an engineer.\nReal-World Impact: Examples from electricity markets and retail ranking algorithms demonstrate how data science creates significant financial value when applied correctly.\n\n\n\nQuestions & Answers\n\nWhy is “interpretability” considered a priority in Industrial Engineering data science projects compared to using “black-box” models?\n\nAnswer: Interpretability is vital because business decisions often require justification for stakeholders or regulatory compliance. If a model’s logic is hidden, it becomes nearly impossible to perform root cause analysis or build trust with decision-makers when errors occur.\n\nAccording to the video, which type of analytics focuses on “What should we do?” by combining predictions with optimization?\n\n\n\nDescriptive Analytics\nPredictive Analytics\nPrescriptive Analytics\nDiagnostic Analytics\n\nAnswer: C) Prescriptive Analytics"
   },
   {
-    "objectID": "assignments/assignment-2.html",
-    "href": "assignments/assignment-2.html",
-    "title": "Assignment 2",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
     "section": "",
-    "text": "Assignment 2\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n Back to top",
+    "text": "I am a senior Industrial Engineering student at Hacettepe University with a strong focus on business analysis and process optimization. My goal is to apply my analytical mindset and technical background in SQL, Python, and SDLC management to solve complex engineering and business challenges.\nThroughout my career, I have had the opportunity to work in diverse sectors. As a Long-Term Business Analyst Intern at IBTECH, I act as a bridge between business units and IT teams, managing SDLC processes and functional documentation. My previous experiences include optimizing production scheduling at MKE and managing international procurement and Just-In-Time (JIT) models at Balıkçı Metal. On the academic side, I am collaborating with TUSAŞ for my graduation project, where I use Critical Path Method (CPM), PERT, and Monte Carlo Simulations to optimize project scheduling for high-complexity aircraft systems."
+  },
+  {
+    "objectID": "about.html#internships",
+    "href": "about.html#internships",
+    "title": "About Me",
+    "section": "Internships",
+    "text": "Internships\n\nIBTECH Technologies, Business Analyst Intern, Sep 2025 - Mar 2026.\nMakine ve Kimya Endüstrisi (MKE), Production Planning Intern, Jun 2025 - Jul 2025.\nBalıkçı Metal, Supply Chain and Purchasing Intern, Aug 2024 - Sep 2024.\nBioArt Laboratories (Eindhoven, Netherlands), ESC Project Intern, Jun 2023 - Aug 2023."
+  },
+  {
+    "objectID": "assignments/assignment-1.html",
+    "href": "assignments/assignment-1.html",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "This assignment consists of two main parts: a video summary with related questions and a set of R programming tasks performed on a specific dataset.",
     "crumbs": [
-      "Assignment 2"
+      "Assignment 1"
     ]
+  },
+  {
+    "objectID": "assignments/assignment-1.html#a.-video-summary",
+    "href": "assignments/assignment-1.html#a.-video-summary",
+    "title": "Assignment 1",
+    "section": "A. Video Summary",
+    "text": "A. Video Summary\nVideo Title: Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Mustafa Baydoğan & Erdi Daşdemir\n\nOverview\nThe video discusses the relationship between Industrial Engineering and Data Science and explains how these two fields work together to solve real-world problems. The speaker emphasizes that data should not be analyzed alone. Instead, engineers should understand the system, process, or business environment behind the data. Industrial Engineers are well prepared for this because their education includes mathematics, statistics, optimization, and problem-solving methods. These skills help them analyze complex systems and make decisions based on data.\nAnother important point in the video is that prediction is only one part of the process. In many business situations, the main goal is not only to forecast what will happen but also to decide what action should be taken. For this reason, the lecture highlights the importance of Prescriptive Analytics, which combines prediction with optimization and decision making. This approach helps companies choose the best strategy based on available data and possible future scenarios.\nThe video also presents several practical examples to explain how data science is used in different industries. One example focuses on the manufacturing sector, where engineers predict whether wood will bend during production. By identifying this problem early, companies can take preventive actions and reduce financial losses. Another example comes from the energy sector, where electricity production and consumption must be balanced at all times. Accurate demand forecasts are important because incorrect predictions can lead to significant economic costs.\nIn addition, the lecture discusses how data science is used in online retail platforms. Companies analyze customer behavior, product popularity, and inventory information to decide how products should be ranked on websites. The goal is to show customers the most relevant products while also maximizing sales and managing stock levels effectively.\nFinally, the speaker explains that in many business environments, models should be understandable and explainable. Even if complex machine learning models can achieve high accuracy, companies often prefer simpler models that can be clearly explained to managers or decision makers. The lecture also highlights that learning data science requires practical experience. Working with real, imperfect datasets and solving real problems is essential for developing strong analytical skills.\n\n\nSummary\n\nIndustrial Engineers combine data analysis, optimization, and decision making.\nData science is applied in manufacturing, energy markets, and online retail.\nPrescriptive Analytics helps decide the best action based on predictions.\nIn business, interpretable models are often preferred.\nPractical experience with real data is essential to learn data science.\n\n\n\nQuestions & Answers\n\nWhy is “interpretability” considered a priority in Industrial Engineering data science projects compared to using “black-box” models?\n\nAnswer: Interpretability is vital because business decisions often require justification for stakeholders or regulatory compliance. If a model’s logic is hidden, it becomes nearly impossible to perform root cause analysis or build trust with decision-makers when errors occur.\n\nAccording to the video, which type of analytics focuses on “What should we do?” by combining predictions with optimization?\n\n\n\nDescriptive Analytics\nPredictive Analytics\nPrescriptive Analytics\nDiagnostic Analytics\n\nAnswer: C) Prescriptive Analytics",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-1.html#b.-assignment",
+    "href": "assignments/assignment-1.html#b.-assignment",
+    "title": "Assignment 1",
+    "section": "B. Assignment",
+    "text": "B. Assignment",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/Assignment1.1.html",
+    "href": "assignments/Assignment1.1.html",
+    "title": "Assignment1.1",
+    "section": "",
+    "text": "1. Gerekli kütüphaneyi yükle ve veri setini içe aktar\n\n\ninstall.packages(“dslabs”) # Eğer yüklü değilse bu satırı çalıştırın\nlibrary(dslabs) data(“polls_us_election_2016”)\n\n\n2. Değişkenleri tanımla (Kendi bilgilerini buraya yazabilirsin)\nmy_first &lt;- “CAN” # Örnek isim my_birth_year &lt;- 1995 # Örnek doğum yılı\n\n\n3. k değerini hesapla\nk &lt;- (nchar(my_first) + my_birth_year) %% 15 + 8 cat(“Hesaplanan k değeri:”, k, “”)\n\n\n4. Orijinal veri setinden k kadar satır göster\n\n\nKural: k çift ise ilk k satır, k tek ise son k satır\nif (k %% 2 == 0) { print(head(polls_us_election_2016, k)) } else { print(tail(polls_us_election_2016, k)) }\n\n\n5. NA (Eksik Veri) Analizi\n\n\nToplam NA sayısı\ntotal_na &lt;- sum(is.na(polls_us_election_2016)) cat(“setindeki toplam NA sayısı:”, total_na, “”)\n\n\nSütun başına NA sayıları (Büyükten küçüğe ilk 8 sütun)\nna_per_column &lt;- sort(colSums(is.na(polls_us_election_2016)), decreasing = TRUE) cat(“başına NA sayıları (Top 8):”) print(head(na_per_column, 8))\n\n\n6. NA değerlerini değiştirme\n\n\nYeni bir nesne oluşturuyoruz (orijinali bozmuyoruz)\nnew_data &lt;- polls_us_election_2016\n\n\nSayısal sütunlar için: my_birth_year + k\n\n\nKarakter/Faktör sütunlar için: my_first_k\nfor(i in 1:ncol(new_data)) { if(is.numeric(new_data[[i]])) { new_data[[i]][is.na(new_data[[i]])] &lt;- my_birth_year + k } else { new_data[[i]] &lt;- as.character(new_data[[i]]) # Faktör hatasını önlemek için karaktere çeviriyoruz new_data[[i]][is.na(new_data[[i]])] &lt;- paste0(my_first, “_“, k) } }\n\n\n7. Yeni veri çerçevesi çıktıları\ncat(“— YENİ VERİ SETİ ÇIKTILARI —”)\n\n\nKurala göre k satır göster\nif (k %% 2 == 0) { print(head(new_data, k)) } else { print(tail(new_data, k)) }\n\n\nKalan NA sayısı kontrolü\ncat(“veri setindeki toplam NA sayısı:”, sum(is.na(new_data)), “”) cat(“anyNA kontrolü (FALSE beklenir):”, anyNA(new_data), “”)\n\n\n\n\n Back to top"
   },
   {
     "objectID": "assignments.html",

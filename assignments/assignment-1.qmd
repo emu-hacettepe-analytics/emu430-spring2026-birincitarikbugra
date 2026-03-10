@@ -40,6 +40,8 @@ Finally, the speaker explains that in many business environments, models should 
 
 2.  According to the video, which type of analytics focuses on "What should we do?" by combining predictions with optimization?
 
+<!-- -->
+
 A)  Descriptive Analytics
 
 B)  Predictive Analytics
@@ -51,3 +53,6 @@ D)  Diagnostic Analytics
 **Answer: C) Prescriptive Analytics**
 
 ------------------------------------------------------------------------
+
+## B. Assignment
+
