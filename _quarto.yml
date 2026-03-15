@@ -38,12 +38,13 @@ website:
       contents:
         - assignments.qmd
         - assignments/assignment-1.qmd
-        - assignments/assignment-2.qmd  
+        - assignments/assignment-2.qmd
 
   page-navigation: true
   back-to-top-navigation: true
+
   page-footer:
-    center: "Hacettepe IE - EMU430 - 2026 Spring" 
+    center: "Hacettepe IE - EMU430 - 2026 Spring"
     border: true
 
 format:
