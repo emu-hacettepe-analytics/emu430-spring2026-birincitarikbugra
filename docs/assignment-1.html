@@ -309,6 +309,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><strong>Summary</strong></a></li>
   <li><a href="#questions-answers" id="toc-questions-answers" class="nav-link" data-scroll-target="#questions-answers"><strong>Questions &amp; Answers</strong></a></li>
   </ul></li>
+  <li><a href="#b-assignment-question" id="toc-b-assignment-question" class="nav-link" data-scroll-target="#b-assignment-question">B <strong>Assignment Question</strong></a></li>
+  <li><a href="#gerekli-paketi-yükle-ve-veriyi-aktar" id="toc-gerekli-paketi-yükle-ve-veriyi-aktar" class="nav-link" data-scroll-target="#gerekli-paketi-yükle-ve-veriyi-aktar">Gerekli paketi yükle ve veriyi aktar</a></li>
+  <li><a href="#kişisel-değişkenleri-tanımla-örnek-deniz-2000" id="toc-kişisel-değişkenleri-tanımla-örnek-deniz-2000" class="nav-link" data-scroll-target="#kişisel-değişkenleri-tanımla-örnek-deniz-2000">Kişisel değişkenleri tanımla (Örnek: “Deniz”, 2000)</a></li>
+  <li><a href="#k-değerini-hesapla" id="toc-k-değerini-hesapla" class="nav-link" data-scroll-target="#k-değerini-hesapla">k değerini hesapla</a></li>
   </ul>
 </nav>
 </nav>
@@ -371,9 +375,24 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <p><strong>Answer: C) Prescriptive Analytics</strong></p>
 <hr>
-
-
 </section>
+</section>
+<section id="b-assignment-question" class="level2">
+<h2 class="anchored" data-anchor-id="b-assignment-question">B <strong>Assignment Question</strong></h2>
+</section>
+<section id="gerekli-paketi-yükle-ve-veriyi-aktar" class="level1">
+<h1>Gerekli paketi yükle ve veriyi aktar</h1>
+<p>if(!require(dslabs)) install.packages(“dslabs”) library(dslabs) data(“polls_us_election_2016”)</p>
+</section>
+<section id="kişisel-değişkenleri-tanımla-örnek-deniz-2000" class="level1">
+<h1>Kişisel değişkenleri tanımla (Örnek: “Deniz”, 2000)</h1>
+<p>my_first &lt;- “Tarık” my_birth_year &lt;- 2003</p>
+</section>
+<section id="k-değerini-hesapla" class="level1">
+<h1>k değerini hesapla</h1>
+<p>k &lt;- (nchar(my_first) + my_birth_year) %% 15 + 8 print(paste(“Hesaplanan k değeri:”, k))</p>
+
+
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->

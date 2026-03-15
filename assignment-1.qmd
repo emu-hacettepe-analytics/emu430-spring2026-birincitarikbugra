@@ -41,3 +41,18 @@ D)  Diagnostic Analytics
 **Answer: C) Prescriptive Analytics**
 
 ------------------------------------------------------------------------
+
+## B **Assignment Question**
+
+# Gerekli paketi yükle ve veriyi aktar
+if(!require(dslabs)) install.packages("dslabs")
+library(dslabs)
+data("polls_us_election_2016")
+
+# Kişisel değişkenleri tanımla (Örnek: "Deniz", 2000)
+my_first <- "Tarık"
+my_birth_year <- 2003
+
+# k değerini hesapla
+k <- (nchar(my_first) + my_birth_year) %% 15 + 8
+print(paste("Hesaplanan k değeri:", k))

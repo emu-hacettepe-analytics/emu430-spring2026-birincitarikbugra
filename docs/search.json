@@ -83,7 +83,7 @@
     "href": "assignments/assignment-1.html#b.-assignment",
     "title": "Assignment 1",
     "section": "B. Assignment",
-    "text": "B. Assignment",
+    "text": "B. Assignment\nlibrary(dslabs) data(“polls_us_election_2016”)",
     "crumbs": [
       "Assignment 1"
     ]
@@ -111,5 +111,12 @@
     "title": "My Blog",
     "section": "",
     "text": "SOON…\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "assignment-1.html#b-assignment-question",
+    "href": "assignment-1.html#b-assignment-question",
+    "title": "Assignment 1",
+    "section": "B Assignment Question",
+    "text": "B Assignment Question"
   }
 ]

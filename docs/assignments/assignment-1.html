@@ -357,6 +357,16 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#questions-answers" id="toc-questions-answers" class="nav-link" data-scroll-target="#questions-answers"><strong>Questions &amp; Answers</strong></a></li>
   </ul></li>
   <li><a href="#b.-assignment" id="toc-b.-assignment" class="nav-link" data-scroll-target="#b.-assignment">B. Assignment</a></li>
+  <li><a href="#değişkenleri-tanımla-örnek-deniz-2000" id="toc-değişkenleri-tanımla-örnek-deniz-2000" class="nav-link" data-scroll-target="#değişkenleri-tanımla-örnek-deniz-2000">Değişkenleri tanımla (Örnek: “Deniz”, 2000)</a></li>
+  <li><a href="#k-değerini-hesapla" id="toc-k-değerini-hesapla" class="nav-link" data-scroll-target="#k-değerini-hesapla">k değerini hesapla</a></li>
+  <li><a href="#k-çift-ise-ilk-k-satır-tek-ise-son-k-satır" id="toc-k-çift-ise-ilk-k-satır-tek-ise-son-k-satır" class="nav-link" data-scroll-target="#k-çift-ise-ilk-k-satır-tek-ise-son-k-satır">k çift ise ilk k satır, tek ise son k satır</a></li>
+  <li><a href="#toplam-na-sayısı" id="toc-toplam-na-sayısı" class="nav-link" data-scroll-target="#toplam-na-sayısı">Toplam NA sayısı</a></li>
+  <li><a href="#sütun-başına-na-sayısı-büyükten-küçüğe-ilk-8" id="toc-sütun-başına-na-sayısı-büyükten-küçüğe-ilk-8" class="nav-link" data-scroll-target="#sütun-başına-na-sayısı-büyükten-küçüğe-ilk-8">Sütun başına NA sayısı (Büyükten küçüğe ilk 8)</a></li>
+  <li><a href="#yeni-bir-nesne-oluştur-orijinali-bozmamak-için" id="toc-yeni-bir-nesne-oluştur-orijinali-bozmamak-için" class="nav-link" data-scroll-target="#yeni-bir-nesne-oluştur-orijinali-bozmamak-için">Yeni bir nesne oluştur (orijinali bozmamak için)</a></li>
+  <li><a href="#döngü-ile-sütun-tiplerine-göre-doldurma-yap" id="toc-döngü-ile-sütun-tiplerine-göre-doldurma-yap" class="nav-link" data-scroll-target="#döngü-ile-sütun-tiplerine-göre-doldurma-yap">Döngü ile sütun tiplerine göre doldurma yap</a></li>
+  <li><a href="#yeni-veri-setinden-k-kadar-satır-göster-aynı-kural-ile" id="toc-yeni-veri-setinden-k-kadar-satır-göster-aynı-kural-ile" class="nav-link" data-scroll-target="#yeni-veri-setinden-k-kadar-satır-göster-aynı-kural-ile">1. Yeni veri setinden k kadar satır göster (Aynı kural ile)</a></li>
+  <li><a href="#yeni-veri-setindeki-toplam-na-sayısı-0-olmalı" id="toc-yeni-veri-setindeki-toplam-na-sayısı-0-olmalı" class="nav-link" data-scroll-target="#yeni-veri-setindeki-toplam-na-sayısı-0-olmalı">2. Yeni veri setindeki toplam NA sayısı (0 olmalı)</a></li>
+  <li><a href="#anyna-kontrolü-false-dönmeli" id="toc-anyna-kontrolü-false-dönmeli" class="nav-link" data-scroll-target="#anyna-kontrolü-false-dönmeli">3. anyNA kontrolü (FALSE dönmeli)</a></li>
   </ul>
 </nav>
 </nav>
@@ -431,6 +441,48 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="b.-assignment" class="level2">
 <h2 class="anchored" data-anchor-id="b.-assignment">B. Assignment</h2>
+<p>library(dslabs) data(“polls_us_election_2016”)</p>
+</section>
+<section id="değişkenleri-tanımla-örnek-deniz-2000" class="level1">
+<h1>Değişkenleri tanımla (Örnek: “Deniz”, 2000)</h1>
+<p>my_first &lt;- “Tarık” my_birth_year &lt;- 2003</p>
+</section>
+<section id="k-değerini-hesapla" class="level1">
+<h1>k değerini hesapla</h1>
+<p>k &lt;- (nchar(my_first) + my_birth_year) %% 15 + 8 print(paste(“Hesaplanan k değeri:”, k))</p>
+</section>
+<section id="k-çift-ise-ilk-k-satır-tek-ise-son-k-satır" class="level1">
+<h1>k çift ise ilk k satır, tek ise son k satır</h1>
+<p>if (k %% 2 == 0) { output_original &lt;- head(polls_us_election_2016, k) } else { output_original &lt;- tail(polls_us_election_2016, k) }</p>
+<p>print(output_original)</p>
+</section>
+<section id="toplam-na-sayısı" class="level1">
+<h1>Toplam NA sayısı</h1>
+<p>total_na &lt;- sum(is.na(polls_us_election_2016)) print(paste(“Toplam NA sayısı:”, total_na))</p>
+</section>
+<section id="sütun-başına-na-sayısı-büyükten-küçüğe-ilk-8" class="level1">
+<h1>Sütun başına NA sayısı (Büyükten küçüğe ilk 8)</h1>
+<p>na_per_column &lt;- sort(colSums(is.na(polls_us_election_2016)), decreasing = TRUE) print(head(na_per_column, 8))</p>
+</section>
+<section id="yeni-bir-nesne-oluştur-orijinali-bozmamak-için" class="level1">
+<h1>Yeni bir nesne oluştur (orijinali bozmamak için)</h1>
+<p>cleaned_data &lt;- polls_us_election_2016</p>
+</section>
+<section id="döngü-ile-sütun-tiplerine-göre-doldurma-yap" class="level1">
+<h1>Döngü ile sütun tiplerine göre doldurma yap</h1>
+<p>for(i in 1:ncol(cleaned_data)) { if(is.numeric(cleaned_data[[i]])) { # Sayısal ise: my_birth_year + k cleaned_data[[i]][is.na(cleaned_data[[i]])] &lt;- my_birth_year + k } else { # Karakter veya Faktör ise: my_first_k cleaned_data[[i]] &lt;- as.character(cleaned_data[[i]]) # Faktör hatasını önlemek için cleaned_data[[i]][is.na(cleaned_data[[i]])] &lt;- paste0(my_first, “_“, k) } }</p>
+</section>
+<section id="yeni-veri-setinden-k-kadar-satır-göster-aynı-kural-ile" class="level1">
+<h1>1. Yeni veri setinden k kadar satır göster (Aynı kural ile)</h1>
+<p>if (k %% 2 == 0) { print(head(cleaned_data, k)) } else { print(tail(cleaned_data, k)) }</p>
+</section>
+<section id="yeni-veri-setindeki-toplam-na-sayısı-0-olmalı" class="level1">
+<h1>2. Yeni veri setindeki toplam NA sayısı (0 olmalı)</h1>
+<p>print(paste(“Yeni veri setindeki toplam NA:”, sum(is.na(cleaned_data))))</p>
+</section>
+<section id="anyna-kontrolü-false-dönmeli" class="level1">
+<h1>3. anyNA kontrolü (FALSE dönmeli)</h1>
+<p>anyNA(cleaned_data)</p>
 
 
 </section>

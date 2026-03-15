@@ -56,3 +56,62 @@ D)  Diagnostic Analytics
 
 ## B. Assignment
 
+library(dslabs)
+data("polls_us_election_2016")
+
+# Değişkenleri tanımla (Örnek: "Deniz", 2000)
+
+my_first <- "Tarık"
+my_birth_year <- 2003
+
+# k değerini hesapla
+k <- (nchar(my_first) + my_birth_year) %% 15 + 8
+print(paste("Hesaplanan k değeri:", k))
+
+# k çift ise ilk k satır, tek ise son k satır
+if (k %% 2 == 0) {
+  output_original <- head(polls_us_election_2016, k)
+} else {
+  output_original <- tail(polls_us_election_2016, k)
+}
+
+print(output_original)
+
+# Toplam NA sayısı
+total_na <- sum(is.na(polls_us_election_2016))
+print(paste("Toplam NA sayısı:", total_na))
+
+# Sütun başına NA sayısı (Büyükten küçüğe ilk 8)
+na_per_column <- sort(colSums(is.na(polls_us_election_2016)), decreasing = TRUE)
+print(head(na_per_column, 8))
+
+# Yeni bir nesne oluştur (orijinali bozmamak için)
+cleaned_data <- polls_us_election_2016
+
+# Döngü ile sütun tiplerine göre doldurma yap
+for(i in 1:ncol(cleaned_data)) {
+  if(is.numeric(cleaned_data[[i]])) {
+    # Sayısal ise: my_birth_year + k
+    cleaned_data[[i]][is.na(cleaned_data[[i]])] <- my_birth_year + k
+  } else {
+    # Karakter veya Faktör ise: my_first_k
+    cleaned_data[[i]] <- as.character(cleaned_data[[i]]) # Faktör hatasını önlemek için
+    cleaned_data[[i]][is.na(cleaned_data[[i]])] <- paste0(my_first, "_", k)
+  }
+}
+
+# 1. Yeni veri setinden k kadar satır göster (Aynı kural ile)
+if (k %% 2 == 0) {
+  print(head(cleaned_data, k))
+} else {
+  print(tail(cleaned_data, k))
+}
+
+# 2. Yeni veri setindeki toplam NA sayısı (0 olmalı)
+print(paste("Yeni veri setindeki toplam NA:", sum(is.na(cleaned_data))))
+
+# 3. anyNA kontrolü (FALSE dönmeli)
+anyNA(cleaned_data)
+
+
+
