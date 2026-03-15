@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Tarik">
 
-<title>My Assignments – Tarık Buğra Birinci’s Analytics Lab</title>
+<title>Election Poll Data Analysis Report – Tarık Buğra Birinci’s Analytics Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +21,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -30,7 +66,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./assignments/assignment-1.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -78,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -260,7 +295,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -296,56 +331,32 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./assignments.html">My Assignments</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="./index.html" class="sidebar-logo-link">
-      </a>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./assignments.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">My Assignments</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./assignments/assignment-1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Assignment 1</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./assignments/assignment-2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Assignment 2</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#load-the-data-and-define-variables" id="toc-load-the-data-and-define-variables" class="nav-link active" data-scroll-target="#load-the-data-and-define-variables">Load the data and define variables</a></li>
+  <li><a href="#value-of-k" id="toc-value-of-k" class="nav-link" data-scroll-target="#value-of-k">Value of k</a></li>
+  <li><a href="#original-data-set-display-k-rows" id="toc-original-data-set-display-k-rows" class="nav-link" data-scroll-target="#original-data-set-display-k-rows">Original data set: display k rows</a></li>
+  <li><a href="#na-analysis-for-the-original-data-set" id="toc-na-analysis-for-the-original-data-set" class="nav-link" data-scroll-target="#na-analysis-for-the-original-data-set">NA analysis for the original data set</a>
+  <ul class="collapse">
+  <li><a href="#total-number-of-na-values-in-the-entire-data-set" id="toc-total-number-of-na-values-in-the-entire-data-set" class="nav-link" data-scroll-target="#total-number-of-na-values-in-the-entire-data-set">Total number of NA values in the entire data set</a></li>
+  <li><a href="#number-of-na-values-per-column-top-8-sorted-from-largest-to-smallest" id="toc-number-of-na-values-per-column-top-8-sorted-from-largest-to-smallest" class="nav-link" data-scroll-target="#number-of-na-values-per-column-top-8-sorted-from-largest-to-smallest">Number of NA values per column (top 8, sorted from largest to smallest)</a></li>
+  </ul></li>
+  <li><a href="#create-a-new-data-frame-by-replacing-na-values" id="toc-create-a-new-data-frame-by-replacing-na-values" class="nav-link" data-scroll-target="#create-a-new-data-frame-by-replacing-na-values">Create a new data frame by replacing NA values</a></li>
+  <li><a href="#new-data-frame-outputs" id="toc-new-data-frame-outputs" class="nav-link" data-scroll-target="#new-data-frame-outputs">New data frame outputs</a>
+  <ul class="collapse">
+  <li><a href="#display-k-rows-of-the-new-data-frame" id="toc-display-k-rows-of-the-new-data-frame" class="nav-link" data-scroll-target="#display-k-rows-of-the-new-data-frame">1. Display k rows of the new data frame</a></li>
+  <li><a href="#total-number-of-na-values-remaining-in-the-new-data-frame" id="toc-total-number-of-na-values-remaining-in-the-new-data-frame" class="nav-link" data-scroll-target="#total-number-of-na-values-remaining-in-the-new-data-frame">2. Total number of NA values remaining in the new data frame</a></li>
+  <li><a href="#result-of-anynanew_data" id="toc-result-of-anynanew_data" class="nav-link" data-scroll-target="#result-of-anynanew_data">3. Result of anyNA(new_data)</a></li>
+  </ul></li>
+  </ul>
+</nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
@@ -357,13 +368,19 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">My Assignments</h1>
+<h1 class="title">Election Poll Data Analysis Report</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Tarik </p>
+          </div>
+  </div>
     
   
     
@@ -374,11 +391,322 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>On this page, I showcase the assignment I conducted for the [term and year, e.g.&nbsp;Spring 2026] EMU430 Data Analytics course.</p>
-<p>Please use the left menu to navigate through my assignments.</p>
-<p>The most recent update to this page was made on x/x/2026.</p>
+<section id="load-the-data-and-define-variables" class="level2">
+<h2 class="anchored" data-anchor-id="load-the-data-and-define-variables">Load the data and define variables</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dslabs)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(<span class="st">"polls_us_election_2016"</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>my_first <span class="ot">&lt;-</span> <span class="st">"Tar??k"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>my_birth_year <span class="ot">&lt;-</span> <span class="dv">2003</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>k <span class="ot">&lt;-</span> (<span class="fu">nchar</span>(my_first) <span class="sc">+</span> my_birth_year) <span class="sc">%%</span> <span class="dv">15</span> <span class="sc">+</span> <span class="dv">8</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="value-of-k" class="level2">
+<h2 class="anchored" data-anchor-id="value-of-k">Value of k</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>k</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 22</code></pre>
+</div>
+</div>
+</section>
+<section id="original-data-set-display-k-rows" class="level2">
+<h2 class="anchored" data-anchor-id="original-data-set-display-k-rows">Original data set: display k rows</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (k <span class="sc">%%</span> <span class="dv">2</span> <span class="sc">==</span> <span class="dv">0</span>) {</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(polls_us_election_2016, k)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> {</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tail</span>(polls_us_election_2016, k)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>            state  startdate    enddate
+1            U.S. 2016-11-03 2016-11-06
+2            U.S. 2016-11-01 2016-11-07
+3            U.S. 2016-11-02 2016-11-06
+4            U.S. 2016-11-04 2016-11-07
+5            U.S. 2016-11-03 2016-11-06
+6            U.S. 2016-11-03 2016-11-06
+7            U.S. 2016-11-02 2016-11-06
+8            U.S. 2016-11-03 2016-11-05
+9      New Mexico 2016-11-06 2016-11-06
+10           U.S. 2016-11-04 2016-11-07
+11           U.S. 2016-11-04 2016-11-06
+12           U.S. 2016-11-01 2016-11-04
+13           U.S. 2016-11-03 2016-11-06
+14       Virginia 2016-11-03 2016-11-04
+15           U.S. 2016-11-01 2016-11-03
+16           Iowa 2016-11-01 2016-11-04
+17           U.S. 2016-11-05 2016-11-07
+18      Wisconsin 2016-10-26 2016-10-31
+19 North Carolina 2016-11-04 2016-11-06
+20        Georgia 2016-11-06 2016-11-06
+21        Florida 2016-11-03 2016-11-06
+22 North Carolina 2016-11-03 2016-11-06
+                                                     pollster grade samplesize
+1                                    ABC News/Washington Post    A+       2220
+2                                     Google Consumer Surveys     B      26574
+3                                                       Ipsos    A-       2195
+4                                                      YouGov     B       3677
+5                                            Gravis Marketing    B-      16639
+6  Fox News/Anderson Robbins Research/Shaw &amp; Company Research     A       1295
+7                                     CBS News/New York Times    A-       1426
+8                                NBC News/Wall Street Journal    A-       1282
+9                                                    Zia Poll  &lt;NA&gt;       8439
+10                                                   IBD/TIPP    A-       1107
+11                                           Selzer &amp; Company    A+        799
+12                                          Angus Reid Global    A-       1151
+13                                        Monmouth University    A+        748
+14                                      Public Policy Polling    B+       1238
+15                                             Marist College     A        940
+16                                           Selzer &amp; Company    A+        800
+17                                   The Times-Picayune/Lucid  &lt;NA&gt;       2521
+18                                       Marquette University     A       1255
+19                                              Siena College     A        800
+20                                    Landmark Communications     B       1200
+21                                      Quinnipiac University    A-        884
+22                                      Quinnipiac University    A-        870
+   population rawpoll_clinton rawpoll_trump rawpoll_johnson rawpoll_mcmullin
+1          lv           47.00         43.00            4.00               NA
+2          lv           38.03         35.69            5.46               NA
+3          lv           42.00         39.00            6.00               NA
+4          lv           45.00         41.00            5.00               NA
+5          rv           47.00         43.00            3.00               NA
+6          lv           48.00         44.00            3.00               NA
+7          lv           45.00         41.00            5.00               NA
+8          lv           44.00         40.00            6.00               NA
+9          lv           46.00         44.00            6.00               NA
+10         lv           41.20         42.70            7.10               NA
+11         lv           44.00         41.00            4.00               NA
+12         lv           48.00         44.00            6.00               NA
+13         lv           50.00         44.00            4.00               NA
+14         lv           48.00         43.00            1.00               NA
+15         lv           44.00         43.00            6.00               NA
+16         lv           39.00         46.00            6.00               NA
+17         lv           45.00         40.00            5.00               NA
+18         lv           46.00         40.00            4.00               NA
+19         lv           44.00         44.00            3.00               NA
+20         lv           46.00         49.00            3.00               NA
+21         lv           46.00         45.00            2.00               NA
+22         lv           47.00         45.00            3.00               NA
+   adjpoll_clinton adjpoll_trump adjpoll_johnson adjpoll_mcmullin
+1         45.20163      41.72430        4.626221               NA
+2         43.34557      41.21439        5.175792               NA
+3         42.02638      38.81620        6.844734               NA
+4         45.65676      40.92004        6.069454               NA
+5         46.84089      42.33184        3.726098               NA
+6         49.02208      43.95631        3.057876               NA
+7         45.11649      40.92722        4.341786               NA
+8         43.58576      40.77325        5.365788               NA
+9         44.82594      41.59978        7.870127               NA
+10        42.92745      42.23545        6.316175               NA
+11        44.21714      40.57082        4.068708               NA
+12        47.57171      43.68125        5.556625               NA
+13        48.86765      43.39600        4.838600               NA
+14        47.43805      42.32751        2.207659               NA
+15        42.83406      43.43819        4.780429               NA
+16        39.37561      45.66917        6.062713               NA
+17        45.13966      42.26495        3.679914               NA
+18        46.10344      40.97982        2.897062               NA
+19        44.21875      45.08290        2.335250               NA
+20        45.06470      48.80363        3.662548               NA
+21        46.44315      43.93999        2.098310               NA
+22        47.43742      43.93745        3.098310               NA</code></pre>
+</div>
+</div>
+</section>
+<section id="na-analysis-for-the-original-data-set" class="level2">
+<h2 class="anchored" data-anchor-id="na-analysis-for-the-original-data-set">NA analysis for the original data set</h2>
+<section id="total-number-of-na-values-in-the-entire-data-set" class="level3">
+<h3 class="anchored" data-anchor-id="total-number-of-na-values-in-the-entire-data-set">Total number of NA values in the entire data set</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sum</span>(<span class="fu">is.na</span>(polls_us_election_2016))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 11604</code></pre>
+</div>
+</div>
+</section>
+<section id="number-of-na-values-per-column-top-8-sorted-from-largest-to-smallest" class="level3">
+<h3 class="anchored" data-anchor-id="number-of-na-values-per-column-top-8-sorted-from-largest-to-smallest">Number of NA values per column (top 8, sorted from largest to smallest)</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>na_per_col <span class="ot">&lt;-</span> <span class="fu">colSums</span>(<span class="fu">is.na</span>(polls_us_election_2016))</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(<span class="fu">sort</span>(na_per_col, <span class="at">decreasing =</span> <span class="cn">TRUE</span>), <span class="dv">8</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>rawpoll_mcmullin adjpoll_mcmullin  rawpoll_johnson  adjpoll_johnson 
+            4178             4178             1409             1409 
+           grade       samplesize            state        startdate 
+             429                1                0                0 </code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="create-a-new-data-frame-by-replacing-na-values" class="level2">
+<h2 class="anchored" data-anchor-id="create-a-new-data-frame-by-replacing-na-values">Create a new data frame by replacing NA values</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>new_data <span class="ot">&lt;-</span> polls_us_election_2016</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">ncol</span>(new_data)) {</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="fu">is.numeric</span>(new_data[[i]])) {</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>    new_data[[i]][<span class="fu">is.na</span>(new_data[[i]])] <span class="ot">&lt;-</span> my_birth_year <span class="sc">+</span> k</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> <span class="cf">if</span> (<span class="fu">is.character</span>(new_data[[i]]) <span class="sc">||</span> <span class="fu">is.factor</span>(new_data[[i]])) {</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>    new_data[[i]] <span class="ot">&lt;-</span> <span class="fu">as.character</span>(new_data[[i]])</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>    new_data[[i]][<span class="fu">is.na</span>(new_data[[i]])] <span class="ot">&lt;-</span> <span class="fu">paste0</span>(my_first, <span class="st">"_"</span>, k)</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="new-data-frame-outputs" class="level2">
+<h2 class="anchored" data-anchor-id="new-data-frame-outputs">New data frame outputs</h2>
+<section id="display-k-rows-of-the-new-data-frame" class="level3">
+<h3 class="anchored" data-anchor-id="display-k-rows-of-the-new-data-frame">1. Display k rows of the new data frame</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (k <span class="sc">%%</span> <span class="dv">2</span> <span class="sc">==</span> <span class="dv">0</span>) {</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(new_data, k)</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> {</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tail</span>(new_data, k)</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>            state  startdate    enddate
+1            U.S. 2016-11-03 2016-11-06
+2            U.S. 2016-11-01 2016-11-07
+3            U.S. 2016-11-02 2016-11-06
+4            U.S. 2016-11-04 2016-11-07
+5            U.S. 2016-11-03 2016-11-06
+6            U.S. 2016-11-03 2016-11-06
+7            U.S. 2016-11-02 2016-11-06
+8            U.S. 2016-11-03 2016-11-05
+9      New Mexico 2016-11-06 2016-11-06
+10           U.S. 2016-11-04 2016-11-07
+11           U.S. 2016-11-04 2016-11-06
+12           U.S. 2016-11-01 2016-11-04
+13           U.S. 2016-11-03 2016-11-06
+14       Virginia 2016-11-03 2016-11-04
+15           U.S. 2016-11-01 2016-11-03
+16           Iowa 2016-11-01 2016-11-04
+17           U.S. 2016-11-05 2016-11-07
+18      Wisconsin 2016-10-26 2016-10-31
+19 North Carolina 2016-11-04 2016-11-06
+20        Georgia 2016-11-06 2016-11-06
+21        Florida 2016-11-03 2016-11-06
+22 North Carolina 2016-11-03 2016-11-06
+                                                     pollster     grade
+1                                    ABC News/Washington Post        A+
+2                                     Google Consumer Surveys         B
+3                                                       Ipsos        A-
+4                                                      YouGov         B
+5                                            Gravis Marketing        B-
+6  Fox News/Anderson Robbins Research/Shaw &amp; Company Research         A
+7                                     CBS News/New York Times        A-
+8                                NBC News/Wall Street Journal        A-
+9                                                    Zia Poll Tar??k_22
+10                                                   IBD/TIPP        A-
+11                                           Selzer &amp; Company        A+
+12                                          Angus Reid Global        A-
+13                                        Monmouth University        A+
+14                                      Public Policy Polling        B+
+15                                             Marist College         A
+16                                           Selzer &amp; Company        A+
+17                                   The Times-Picayune/Lucid Tar??k_22
+18                                       Marquette University         A
+19                                              Siena College         A
+20                                    Landmark Communications         B
+21                                      Quinnipiac University        A-
+22                                      Quinnipiac University        A-
+   samplesize population rawpoll_clinton rawpoll_trump rawpoll_johnson
+1        2220         lv           47.00         43.00            4.00
+2       26574         lv           38.03         35.69            5.46
+3        2195         lv           42.00         39.00            6.00
+4        3677         lv           45.00         41.00            5.00
+5       16639         rv           47.00         43.00            3.00
+6        1295         lv           48.00         44.00            3.00
+7        1426         lv           45.00         41.00            5.00
+8        1282         lv           44.00         40.00            6.00
+9        8439         lv           46.00         44.00            6.00
+10       1107         lv           41.20         42.70            7.10
+11        799         lv           44.00         41.00            4.00
+12       1151         lv           48.00         44.00            6.00
+13        748         lv           50.00         44.00            4.00
+14       1238         lv           48.00         43.00            1.00
+15        940         lv           44.00         43.00            6.00
+16        800         lv           39.00         46.00            6.00
+17       2521         lv           45.00         40.00            5.00
+18       1255         lv           46.00         40.00            4.00
+19        800         lv           44.00         44.00            3.00
+20       1200         lv           46.00         49.00            3.00
+21        884         lv           46.00         45.00            2.00
+22        870         lv           47.00         45.00            3.00
+   rawpoll_mcmullin adjpoll_clinton adjpoll_trump adjpoll_johnson
+1              2025        45.20163      41.72430        4.626221
+2              2025        43.34557      41.21439        5.175792
+3              2025        42.02638      38.81620        6.844734
+4              2025        45.65676      40.92004        6.069454
+5              2025        46.84089      42.33184        3.726098
+6              2025        49.02208      43.95631        3.057876
+7              2025        45.11649      40.92722        4.341786
+8              2025        43.58576      40.77325        5.365788
+9              2025        44.82594      41.59978        7.870127
+10             2025        42.92745      42.23545        6.316175
+11             2025        44.21714      40.57082        4.068708
+12             2025        47.57171      43.68125        5.556625
+13             2025        48.86765      43.39600        4.838600
+14             2025        47.43805      42.32751        2.207659
+15             2025        42.83406      43.43819        4.780429
+16             2025        39.37561      45.66917        6.062713
+17             2025        45.13966      42.26495        3.679914
+18             2025        46.10344      40.97982        2.897062
+19             2025        44.21875      45.08290        2.335250
+20             2025        45.06470      48.80363        3.662548
+21             2025        46.44315      43.93999        2.098310
+22             2025        47.43742      43.93745        3.098310
+   adjpoll_mcmullin
+1              2025
+2              2025
+3              2025
+4              2025
+5              2025
+6              2025
+7              2025
+8              2025
+9              2025
+10             2025
+11             2025
+12             2025
+13             2025
+14             2025
+15             2025
+16             2025
+17             2025
+18             2025
+19             2025
+20             2025
+21             2025
+22             2025</code></pre>
+</div>
+</div>
+</section>
+<section id="total-number-of-na-values-remaining-in-the-new-data-frame" class="level3">
+<h3 class="anchored" data-anchor-id="total-number-of-na-values-remaining-in-the-new-data-frame">2. Total number of NA values remaining in the new data frame</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sum</span>(<span class="fu">is.na</span>(new_data))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 0</code></pre>
+</div>
+</div>
+</section>
+<section id="result-of-anynanew_data" class="level3">
+<h3 class="anchored" data-anchor-id="result-of-anynanew_data">3. Result of anyNA(new_data)</h3>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">anyNA</span>(new_data)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] FALSE</code></pre>
+</div>
+</div>
+<p>Note: I used AI tools to assist in formatting the R Markdown document and clarifying assignment instructions. I used R code to analyze and verify the analysis process and the final outputs.</p>
 
 
+</section>
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -794,15 +1122,6 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./assignments/assignment-1.html" class="pagination-link" aria-label="Assignment 1">
-        <span class="nav-page-text">Assignment 1</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

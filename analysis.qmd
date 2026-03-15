@@ -1,0 +1,89 @@
+---
+title: "Election Poll Data Analysis Report"
+author: "Tarik"
+output: html_document
+---
+
+## Load the data and define variables
+
+```{r, message=FALSE, warning=FALSE}
+library(dslabs)
+data("polls_us_election_2016")
+
+my_first <- "Tar??k"
+my_birth_year <- 2003
+
+k <- (nchar(my_first) + my_birth_year) %% 15 + 8
+```
+
+## Value of k
+
+```{r}
+k
+```
+
+## Original data set: display k rows
+
+```{r}
+if (k %% 2 == 0) {
+  head(polls_us_election_2016, k)
+} else {
+  tail(polls_us_election_2016, k)
+}
+```
+
+## NA analysis for the original data set
+
+### Total number of NA values in the entire data set
+
+```{r}
+sum(is.na(polls_us_election_2016))
+```
+
+### Number of NA values per column (top 8, sorted from largest to smallest)
+
+```{r}
+na_per_col <- colSums(is.na(polls_us_election_2016))
+head(sort(na_per_col, decreasing = TRUE), 8)
+```
+
+## Create a new data frame by replacing NA values
+
+```{r}
+new_data <- polls_us_election_2016
+
+for (i in 1:ncol(new_data)) {
+  if (is.numeric(new_data[[i]])) {
+    new_data[[i]][is.na(new_data[[i]])] <- my_birth_year + k
+  } else if (is.character(new_data[[i]]) || is.factor(new_data[[i]])) {
+    new_data[[i]] <- as.character(new_data[[i]])
+    new_data[[i]][is.na(new_data[[i]])] <- paste0(my_first, "_", k)
+  }
+}
+```
+
+## New data frame outputs
+
+### 1. Display k rows of the new data frame
+
+```{r}
+if (k %% 2 == 0) {
+  head(new_data, k)
+} else {
+  tail(new_data, k)
+}
+```
+
+### 2. Total number of NA values remaining in the new data frame
+
+```{r}
+sum(is.na(new_data))
+```
+
+### 3. Result of anyNA(new_data)
+
+```{r}
+anyNA(new_data)
+```
+
+Note: I used AI tools to assist in formatting the R Markdown document and clarifying assignment instructions. I used R code to analyze and verify the analysis process and the final outputs.
