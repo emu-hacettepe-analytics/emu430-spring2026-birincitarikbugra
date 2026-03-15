@@ -5,7 +5,7 @@ project:
     - .nojekyll
 
 website:
-  title: "Tar??k Bu??ra Birinci's Analytics Lab"
+  title: "Tarık Buğra Birinci's Analytics Lab"
 
   navbar:
     search: true

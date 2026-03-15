@@ -6,7 +6,7 @@ This assignment consists of two main parts: a video summary with related questio
 
 ## A. **Video Summary**
 
-Video Title: [Veri Bilimi ve EndC<stri MC<hendisliDi Czerine Sohbetler - Mustafa BaydoDan & Erdi DaEdemir](https://www.youtube.com/watch?v=1Mvkn71dhaA)
+Video Title: [Veri Bilimi ve Endüstri Mühendisliği Üzerine Sohbetler - Mustafa Baydoğan & Erdi Daşdemir](https://www.youtube.com/watch?v=1Mvkn71dhaA)
 
 ### **Overview**
 
@@ -62,7 +62,7 @@ D)  Diagnostic Analytics
 library(dslabs)
 data("polls_us_election_2016")
 
-my_first <- "Tar??k"
+my_first <- "Tarık"
 my_birth_year <- 2003
 
 k <- (nchar(my_first) + my_birth_year) %% 15 + 8
