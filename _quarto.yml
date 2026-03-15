@@ -16,12 +16,13 @@ website:
         href: about.qmd
       - text: My Posts
         href: posts.qmd
-      - text: EMU430 Coursework
+      - text: "EMU430 Coursework"
         menu:
           - text: Assignments
             href: assignments.qmd
           - text: Project
             href: project.qmd
+
     tools:
       - icon: github
         href: https://github.com/birincitarikbugra
@@ -37,13 +38,12 @@ website:
       contents:
         - assignments.qmd
         - assignments/assignment-1.qmd
-        - assignments/assignment-2.qmd
+        - assignments/assignment-2.qmd  
 
   page-navigation: true
   back-to-top-navigation: true
-
   page-footer:
-    center: "Hacettepe IE - EMU430 - 2026 Spring"
+    center: "Hacettepe IE - EMU430 - 2026 Spring" 
     border: true
 
 format:
@@ -54,7 +54,5 @@ format:
       light: flatly
       dark: darkly
     css: styles.css
-    smooth-scroll: true
-    link-external-newwindow: true
 
 editor: visual
